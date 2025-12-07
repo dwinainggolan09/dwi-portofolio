@@ -245,24 +245,7 @@ export default function Portfolio() {
                   Nainggolan
                 </span>
               </h1>
-              <div className="text-xl md:text-2xl text-gray-300 mb-6 space-y-2">
-                <div className="flex items-center gap-2">
-                  <Code className="text-cyan-400" size={24} />
-                  <span>Full Stack Developer</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Server className="text-blue-400" size={24} />
-                  <span>Backend Engineer</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Cpu className="text-purple-400" size={24} />
-                  <span>IoT Developer</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Terminal className="text-green-400" size={24} />
-                  <span>DevOps Engineer</span>
-                </div>
-              </div>
+
               <p className="text-gray-400 mb-8 leading-relaxed">
                 Final-year Computer Technology student passionate about building
                 scalable systems, IoT solutions, and automated infrastructure.
@@ -285,7 +268,7 @@ export default function Portfolio() {
               </div>
               <div className="flex gap-4 mt-8">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/dwinainggolan09"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-cyan-400 transition-colors"
@@ -319,21 +302,7 @@ export default function Portfolio() {
                       </span>
                     </div>
                     <div className="space-y-2">
-                      <div className="text-gray-400 text-sm">
-                        Current Focus:
-                      </div>
-                      <div className="flex flex-wrap gap-2">
-                        {["Microservices", "IoT", "DevOps", "API Design"].map(
-                          (tag) => (
-                            <span
-                              key={tag}
-                              className="px-3 py-1 bg-gray-800 rounded-full text-xs text-cyan-400"
-                            >
-                              {tag}
-                            </span>
-                          )
-                        )}
-                      </div>
+                      <div className="text-gray-400 text-sm"></div>
                     </div>
                     <div className="pt-4 border-t border-gray-700">
                       <div className="text-gray-400 text-sm mb-2">
@@ -516,16 +485,6 @@ export default function Portfolio() {
                         </div>
                       ))}
                     </div>
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm text-cyan-400 hover:text-cyan-300 transition-colors"
-                    >
-                      <Github size={16} />
-                      <span>View on GitHub</span>
-                      <ExternalLink size={12} />
-                    </a>
                   </div>
                 </div>
               );
@@ -670,7 +629,7 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/1gHr4O6hX0FKazB68fbzujVEBZfMOgWBt/view?usp=sharing"
                   className="block bg-gradient-to-r from-cyan-500 to-blue-500 p-6 rounded-lg text-center hover:shadow-lg hover:shadow-cyan-500/50 transition-all"
                 >
                   <div className="flex items-center justify-center gap-2 font-semibold text-lg">
