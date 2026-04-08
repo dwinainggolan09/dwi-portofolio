@@ -198,7 +198,7 @@ export default function Portfolio() {
                   >
                     {item}
                   </a>
-                )
+                ),
               )}
             </div>
 
@@ -225,7 +225,7 @@ export default function Portfolio() {
                   >
                     {item}
                   </a>
-                )
+                ),
               )}
             </div>
           )}
@@ -629,7 +629,7 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <a
-                  href="https://drive.google.com/file/d/1gHr4O6hX0FKazB68fbzujVEBZfMOgWBt/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1pHGt9ZtorleS_CmSXxRZQObiKLrOGjpI/view?usp=drive_link"
                   className="block bg-gradient-to-r from-cyan-500 to-blue-500 p-6 rounded-lg text-center hover:shadow-lg hover:shadow-cyan-500/50 transition-all"
                 >
                   <div className="flex items-center justify-center gap-2 font-semibold text-lg">
